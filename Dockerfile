@@ -15,6 +15,7 @@ ln -s /usr/bin/php7 /usr/bin/php
 
 # Apache config
 ADD httpd.conf /etc/apache2/httpd.conf
+ADD status.conf /etc/apache2/mods-enabled/status.conf
 
 # ADD ssmtp
 COPY ssmtp /etc/ssmtp
